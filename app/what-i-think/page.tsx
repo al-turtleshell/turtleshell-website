@@ -11,7 +11,7 @@ const Post = ({title, picture_url, link, tag }: PostParams) => {
     return (
         <Link href={link} className="col-span-12 mb-section-m group">
             <h2 className="text-neutral-600 text-heading-5 font-bold mb-element-s md:text-heading-4 group-hover:text-brand-base">{title}</h2>
-            <img src={picture_url} className="mb-element-s w-full rounded-lg" />
+            <img src={picture_url} className="mb-element-s w-full rounded-lg" alt="post picture" />
             <div className="flex text-text-small mb-section-s text-neutral-600">
                 <p><span className="text-brand-base">{tag}</span></p>
             </div>

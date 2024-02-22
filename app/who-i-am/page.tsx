@@ -18,7 +18,7 @@ const WhoIAmPage = () => {
             
             <div className="col-span-12 md-element-m md:mb-section-s">
                 <div className="flex items-center flex-row space-x-element-m md:space-x-element-l">
-                    <img src="./profil.jpeg" className="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px]" />
+                    <img src="./profil.jpeg" className="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px]" alt="profil" />
                     <div>
                         <h2 className="text-neutral-600 text-heading-3 mb-element-s">Alexandre LEROY</h2>
                         <h3 className="text-brand-base text-heading-5  mb-element-s">Software craftman</h3>
@@ -35,7 +35,7 @@ const WhoIAmPage = () => {
             <div className="col-span-12 md:col-span-6 mb-section-s">
                 <h3 className="text-heading-5 text-neutral-600 mb-element-s">Presentation</h3>
                 <p className="text-neutral-600 text-text-base w-full p-element-m">
-                    Technology and philosophy, both represent such intricate dances between logic and creativity. I suppose it could be said, quite early on, that's what both technology and philosophy represent to me. 
+                    Technology and philosophy, both represent such intricate dances between logic and creativity. I suppose it could be said, quite early on, that&apos;s what both technology and philosophy represent to me. 
                     My journey is not one of traditional education but of an insatiable curiosity carved from an insuperable drive to understand the world around me. 
                     Self-taught, I delved into the realms of computer science and architecture development—guided by the philosophical underpinning that asks: Why? What if?
                 </p>
@@ -43,8 +43,8 @@ const WhoIAmPage = () => {
 
             <div className="col-span-12">
                 <p className="text-neutral-600 text-heading-5 text-center p-element-m md:p-section-m">
-                    I'm keen to <span className="text-brand-base">connect</span> with like-minded professionals and organizations where I can contribute my problem-solving expertise while continuing to grow and learn. 
-                    Let's connect and explore how we can drive <span className="text-brand-base">success together</span>!
+                    I&apos;m keen to <span className="text-brand-base">connect</span> with like-minded professionals and organizations where I can contribute my problem-solving expertise while continuing to grow and learn. 
+                    Let&apos;s connect and explore how we can drive <span className="text-brand-base">success together</span>!
                 </p>
             </div>
         </>

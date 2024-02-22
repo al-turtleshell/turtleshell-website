@@ -20,7 +20,7 @@ export default function Home() {
         <FaNodeJs className="text-neutral-400/80 w-[60px] h-[60px] md:w-[75px] md:h-[75px] hover:text-brand-base/80"/>
       </div>
       <h3 className="text-text-base md:text-heading-5 text-neutral-600 text-center mb-section-s">
-        Whether you're looking to disrupt markets, create new experiences, or redefine standards.<br />
+        Whether you&apos;re looking to disrupt markets, create new experiences, or redefine standards.<br />
         I am here to <span className="text-brand-base">help you</span> make it <span className="text-brand-base">happen</span>.
       </h3>
       <div className="flex flex-row space-x-element-s justify-center mb-section-l">
