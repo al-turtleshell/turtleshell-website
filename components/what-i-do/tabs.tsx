@@ -17,12 +17,12 @@ const Tabs = () => {
                 > 
                     Work in company
                 </h2>
-                <h2 
+                {/* <h2 
                     onClick={() => setActiveTab(1)}
                     className={cn("cursor-pointer px-element-s md:px-element-m py-element-s border rounded-xl border-neutral-500", { "border-brand-base": activeTab === 1, "text-brand-base": activeTab === 1})}
                 >
                     Projects 
-                </h2>
+                </h2> */}
             </div>
             { activeTab === 0 && <WorkInCompany /> }
             { activeTab === 1 && <Projects /> }
